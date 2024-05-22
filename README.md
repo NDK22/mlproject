@@ -48,5 +48,6 @@ Using the Application
 3. The predicted math score will be displayed on the screen.
 
 Snapshot of the project:
+
 ![image](https://github.com/NDK22/mlproject/assets/121696401/78085c15-3be5-4190-82df-b34a04d357f9)
 
