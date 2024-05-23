@@ -1,6 +1,5 @@
-## End to End Machine Learning Project
+## Student Performance Indicato End to End Machine Learning Project
 
-Student Math Performance Indicator
 
 This is a web application that predicts a student's math score based on various inputs such as gender, ethnicity, parental education level, lunch type, test preparation course, and scores in reading and writing. The application is built using Flask, a lightweight web framework for Python.
 
