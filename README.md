@@ -46,37 +46,35 @@ Using the Application
 
 3. The predicted math score will be displayed on the screen.
 
-MLprpject/
-|
-|── .ebextensio/
-|    |── python.config                      # config file for AWS Deployment in Elastic Bean and CodePipeline for Continuous Deployment
-|── artifacts/
-|    ├── data.csv                           # Metadata csv
-|    ├── train.csv                          # Training data csv
-|    ├── test.csv                           # Testing data csv
-|    ├── model.pkl                          # Saved Best Model
-|    ├── preprocessor.pkl                   # Saved Preprocessing file for new data
-|── notebook/
-|   |── EDA Student Performance.ipyb        # Jupyter file to do exploratory data analysis of the data being used to create the model
-|   |── Model Training.ipyb                 # Jupyter file to structure how we will be training the data using various machine learning algorithm
-├── application.py                          # Main application script
-├── requirements.txt                        # Project dependencies
-├── setup.py                                # Setup script for packaging
+MLproject/
+├── .ebextensions/
+│ └── python.config # Config file for AWS Deployment in Elastic Beanstalk and CodePipeline for Continuous Deployment
+├── artifacts/
+│ ├── data.csv # Metadata CSV
+│ ├── train.csv # Training data CSV
+│ ├── test.csv # Testing data CSV
+│ ├── model.pkl # Saved Best Model
+│ ├── preprocessor.pkl # Saved Preprocessing file for new data
+├── notebook/
+│ ├── EDA Student Performance.ipynb # Jupyter file for exploratory data analysis
+│ ├── Model Training.ipynb # Jupyter file for model training
+├── application.py # Main application script
+├── requirements.txt # Project dependencies
+├── setup.py # Setup script for packaging
 ├── templates/
-│   └── home.html                           # HTML template for the form and result display
+│ └── home.html # HTML template for the form and result display
 ├── src/
-│   ├── pipeline/
-│   │   ├── __init__.py
-│   │   ├── predict_pipeline.py             # Prediction pipeline script
-│   │   
-|   |── components/
-|   |   |── data_ingestion.py               # Data Ingestion script
-|   |   |── data_transformation.py          # Data Transformation script
-|   |   |── model_trainer.py                # Model Training Script
-|   |── exeption.py                         # Script for Custom Exception handling for error messages
-|   |── logger.py                           # Script for logging
-|   |── utils.py                            # Scripts to have functions used in various other scripts
-└── README.txt                              # Project README file
+│ ├── pipeline/
+│ │ ├── init.py
+│ │ ├── predict_pipeline.py # Prediction pipeline script
+│ ├── components/
+│ │ ├── data_ingestion.py # Data Ingestion script
+│ │ ├── data_transformation.py # Data Transformation script
+│ │ ├── model_trainer.py # Model Training Script
+│ ├── exception.py # Script for Custom Exception handling
+│ ├── logger.py # Script for logging
+│ ├── utils.py # Utility functions
+└── README.md # Project README file
 
 Machine learning Algorithms used:
 |── CatBoostRegressor
