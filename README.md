@@ -50,33 +50,34 @@ Using the Application
 
 MLproject/
 ├── .ebextensions/
-│ └── python.config # Config file for AWS Deployment in Elastic Beanstalk and CodePipeline for Continuous Deployment
+│   └── python.config                # Config file for AWS Deployment in Elastic Beanstalk and CodePipeline for Continuous Deployment
 ├── artifacts/
-│ ├── data.csv # Metadata CSV
-│ ├── train.csv # Training data CSV
-│ ├── test.csv # Testing data CSV
-│ ├── model.pkl # Saved Best Model
-│ ├── preprocessor.pkl # Saved Preprocessing file for new data
+│   ├── data.csv                     # Metadata CSV
+│   ├── train.csv                    # Training data CSV
+│   ├── test.csv                     # Testing data CSV
+│   ├── model.pkl                    # Saved Best Model
+│   ├── preprocessor.pkl             # Saved Preprocessing file for new data
 ├── notebook/
-│ ├── EDA Student Performance.ipynb # Jupyter file for exploratory data analysis
-│ ├── Model Training.ipynb # Jupyter file for model training
-├── application.py # Main application script
-├── requirements.txt # Project dependencies
-├── setup.py # Setup script for packaging
+│   ├── EDA Student Performance.ipynb # Jupyter file for exploratory data analysis
+│   ├── Model Training.ipynb          # Jupyter file for model training
+├── application.py                   # Main application script
+├── requirements.txt                 # Project dependencies
+├── setup.py                         # Setup script for packaging
 ├── templates/
-│ └── home.html # HTML template for the form and result display
+│   └── home.html                    # HTML template for the form and result display
 ├── src/
-│ ├── pipeline/
-│ │ ├── init.py
-│ │ ├── predict_pipeline.py # Prediction pipeline script
-│ ├── components/
-│ │ ├── data_ingestion.py # Data Ingestion script
-│ │ ├── data_transformation.py # Data Transformation script
-│ │ ├── model_trainer.py # Model Training Script
-│ ├── exception.py # Script for Custom Exception handling
-│ ├── logger.py # Script for logging
-│ ├── utils.py # Utility functions
-└── README.md # Project README file
+│   ├── pipeline/
+│   │   ├── __init__.py
+│   │   ├── predict_pipeline.py      # Prediction pipeline script
+│   ├── components/
+│   │   ├── data_ingestion.py        # Data Ingestion script
+│   │   ├── data_transformation.py   # Data Transformation script
+│   │   ├── model_trainer.py         # Model Training Script
+│   ├── exception.py                 # Script for Custom Exception handling
+│   ├── logger.py                    # Script for logging
+│   ├── utils.py                     # Utility functions
+└── README.md                        # Project README file
+
 
 Machine learning Algorithms used:
 |── CatBoostRegressor
