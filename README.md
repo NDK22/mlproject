@@ -46,6 +46,8 @@ Using the Application
 
 3. The predicted math score will be displayed on the screen.
 
+### Project Structure
+
 MLproject/
 ├── .ebextensions/
 │ └── python.config # Config file for AWS Deployment in Elastic Beanstalk and CodePipeline for Continuous Deployment
