@@ -48,7 +48,7 @@ The application will start on [http://localhost:5000](http://localhost:5000). Op
     - Writing Score
     - Reading Score
 
-2. Click on the "Predict your Maths Score" button.
+2. Click on the "Predict your Math Score" button.
 
 3. The predicted math score will be displayed on the screen.
 
