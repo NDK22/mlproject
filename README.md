@@ -47,6 +47,7 @@ Using the Application
 3. The predicted math score will be displayed on the screen.
 
 MLprpject/
+|
 |── .ebextensio/
 |    |── python.config                      # config file for AWS Deployment in Elastic Bean and CodePipeline for Continuous Deployment
 |── artifacts/
