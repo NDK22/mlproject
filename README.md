@@ -48,7 +48,7 @@ Using the Application
 
 ### Project Structure
 
-MLproject/
+mlproject/
 ├── .ebextensions/
 │   └── python.config                # Config file for AWS Deployment in Elastic Beanstalk and CodePipeline for Continuous Deployment
 ├── artifacts/
