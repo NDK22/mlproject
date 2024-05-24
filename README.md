@@ -35,7 +35,7 @@ pip install .
 python application.py
 ```
 
-The application will start on [http://localhost:5000](http://localhost:5000). Open this URL in your web browser to access the application.
+The application will start on [http://studentmathperformance-env-1.eba-pbmrfk2x.us-east-2.elasticbeanstalk.com/]([http://localhost:5000](http://studentmathperformance-env-1.eba-pbmrfk2x.us-east-2.elasticbeanstalk.com/)). Open this URL in your web browser to access the application.
 
 ### Using the Application
 
