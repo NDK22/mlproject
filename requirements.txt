@@ -7,4 +7,6 @@ scikit-learn
 catboost
 xgboost
 flask
+fastapi
+uvicorn
 #-e .
