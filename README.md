@@ -1,12 +1,12 @@
-# Student Performance Indicator End to End Machine Learning Project
+# Student Performance Indicator End-to-End Machine Learning Project
 
-This is a web application that predicts a student's math score based on various inputs such as gender, ethnicity, parental education level, lunch type, test preparation course, and scores in reading and writing. The application is built using Flask, a lightweight web framework for Python.
+This is a web application that predicts a student's math score based on various inputs such as gender, ethnicity, parental education level, lunch type, test preparation course, and reading and writing scores. The application is built using Flask, a lightweight web framework for Python.
 
 ## Prerequisites
 
 - Python 3.8
 - pip (Python package installer)
-- AWS for Continuous Deployment and hosting
+- AWS  or Azure for Continuous Deployment and hosting
 
 ## Create a Virtual Environment
 
@@ -97,7 +97,7 @@ MLproject/
 - DecisionTreeRegressor
 - XGBRegressor
 
-The model's performance was evaluated using r2 score. The model was hyperparameter tuned, and the best model was selected using GridSearchCV.
+The model's performance was evaluated using the r2 score. The model was hyperparameter-tuned, and the best model was selected using GridSearchCV.
 
 ## Snapshot of the Project
 
